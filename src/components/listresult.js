@@ -26,7 +26,7 @@ function ListResult() {
                     </div>
                     <div class="sm:w-1/3">
                         <div class="flex items-center">
-                            <img src="contact.picture.thumbnail" class="rounded-full" />
+                            <img src="https://miro.medium.com/fit/c/176/176/1*uRvQfiC_dxY2RzvIovmZqg.jpeg" class="rounded-full h-10 w-10" />
                             <div class="ml-4">
                                 <span class="capitalize block text-gray-800">M. Emin Kırgil</span>
                                 <span class="text-sm block text-gray-600"></span>
