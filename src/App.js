@@ -1,23 +1,17 @@
 import logo from './logo.svg';
+import SearchBoxForm from './components/searchboxform';
+import Header from './components/header';
+import ListResult from './components/listresult';
 import './App.css';
 
 function App() {
+  document.body.classList.add('p-0')
+  document.body.classList.add('bg-white')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='p-4 bg-light'>
+      <Header></Header>
+      <SearchBoxForm></SearchBoxForm>
+      <ListResult></ListResult>
     </div>
   );
 }
